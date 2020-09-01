@@ -6,7 +6,6 @@ describe("Practice Assignment 3", function () {
       let result = question1(1);
       assert.notExists(result);
     });
-    myNumber = 2;
     it("The variable myDept should hold the required value if the variable myNumber is greater than 1.", function () {
       let result = question1(2);
       assert.match(result, /^Informatics$/);
